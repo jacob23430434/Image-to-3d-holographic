@@ -1,0 +1,23 @@
+# ==== Historical experiment versions (large; kept locally only) ====
+archive/
+
+# ==== Backups ====
+model_backup_*/
+
+# ==== Editors and OS files ====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==== Python ====
+__pycache__/
+*.py[cod]
+
+# ==== Build output ====
+build/
+*.bin
+*.elf
+*.hex
+*.map

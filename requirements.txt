@@ -1,0 +1,4 @@
+# Dependencies for tools/texture_2_h.py (image loading + RGB565 conversion).
+# tools/obj_to_h.py only uses the standard library and needs nothing extra.
+Pillow>=9.0.0
+numpy>=1.20.0

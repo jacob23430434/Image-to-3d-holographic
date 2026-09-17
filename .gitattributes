@@ -1,0 +1,19 @@
+# Use LF everywhere; no platform specific line-ending conversion
+* text=auto eol=lf
+
+# Generated mesh / texture data: huge and meaningless to diff
+firmware/**/model_data.h -text -diff
+firmware/**/model_texture.h -text -diff
+
+# Binary assets
+*.blend binary
+*.obj binary
+*.png binary
+*.jpg binary
+*.mp4 binary
+
+# Text assets
+*.mtl text eol=lf
+*.py text eol=lf
+*.ino text eol=lf
+*.md text eol=lf
